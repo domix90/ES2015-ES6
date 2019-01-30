@@ -28,4 +28,20 @@ person = {first_name: "Anna" };
 --------------------------
 When let
 --------------------------
-let 
+let should be used when I want to reassign a value. It works like var. 
+
+const person = {
+            first_name: "Andrew",
+            role: "Teacher"
+        }
+    
+        function personDescription(person) {
+            var description = person.first_name;
+            if(person.role) {
+                description = description + " is a ";
+                description = description + person.role;
+            }
+            console.log(description);
+        }
+    
+        personDescription(person);
