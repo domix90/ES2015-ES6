@@ -3,9 +3,9 @@ Getting up to speed with ES2015
 
 
 Const and let is similar to var
-
+--------------------------
 When const
-
+--------------------------
 constant - once you create it you cannot change the value for instance value PI cannot be changed if set in const. You cannot reassing string, numbers, booleans, objects and arrays. 
 
 Objects and arrays have methods and properties however that can be used to modify the const. 
@@ -21,6 +21,11 @@ const person = {first_person: "Dominik"};
 
 If I use method on the object person.last_name = "Sosen"; I will not get any errors. 
 
-When let
+If I try to reassing the value by using person.first_name = "x" I will not get an error. I would get an error if I tried 
 
+person = {first_name: "Anna" };
+
+--------------------------
+When let
+--------------------------
 let 
