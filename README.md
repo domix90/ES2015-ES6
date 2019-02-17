@@ -91,3 +91,11 @@ for (var i = 0; i < buttons.lenght; i++) {
       alert ("button " + i + " pressed"); 
    });
 }
+
+In this example we have a scope issue as var i belongs to global scope. We need to use the let keyword so that it lives inside the function. When I would run this code the button would always display i = 5 as this is the last value assigned after the loop finishes. 
+
+
+--------------------------
+When var
+--------------------------
+Keyword var is not recommended anymore. Usage of var keyword should be avoided as a good practice. 
