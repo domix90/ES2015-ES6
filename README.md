@@ -46,6 +46,15 @@ list.pop();
 
 list.pop();
 
+The below example will give me error cause I am trying to pass another value to a fuction with a pre-defined const
+
+const taxRate = 8.5;
+function calculateTax(cost, tax) {
+  taxRate = tax;
+  return (cost * taxRate) / 100;
+}
+console.log(calculateTax(100, 10));
+
 --------------------------
 When let
 --------------------------
