@@ -27,6 +27,25 @@ person = {first_name: "Anna" }; -- OVERWRITING
 
 CONST DOES NOT prevent complex objects like arrays from being modified. It prevents the value from being reassigned or overwritten! 
 
+Working on arrays examples of code which will not throw an error: 
+
+1. const days = ['Monday', 'Tuesday', 'Wednesday' ];
+days.push ('Friday', 'Saturday');
+
+2. names = [];
+names[0] = "Dom";
+
+names[1] = "Aga"; 
+
+names[2] = "Marcin i Magda";
+
+3. const list = ["Eggs", "Milk", "Potato"];
+list.pop();
+
+list.pop();
+
+list.pop();
+
 --------------------------
 When let
 --------------------------
