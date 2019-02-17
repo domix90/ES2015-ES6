@@ -66,7 +66,7 @@ const person = {
         }
     
         function personDescription(person) {
-            var description = person.first_name;
+           let description = person.first_name;
             if(person.role) {
                 description = description + " is a ";
                 description = description + person.role;
@@ -75,3 +75,19 @@ const person = {
         }
     
         personDescription(person);
+
+Let is particularly useful in for loops. You should mostly use let for "for loops" as a good practice. 
+
+<button> Button 0 </button>
+<button> Button 1 </button>
+<button> Button 2 </button>
+<button> Button 3 </button>
+
+const buttons = document.getElementsByTagName("button");
+
+for (var i = 0; i < buttons.lenght; i++) {
+   const button = buttons[i]; 
+   button.addEventListener ("click", function () {
+      alert ("button " + i + " pressed"); 
+   });
+}
