@@ -19,11 +19,13 @@ If I use method days.push("Freitag") the string will be added to the array.
 
 const person = {first_person: "Dominik"};
 
-If I use method on the object person.last_name = "Sosen"; I will not get any errors. 
+If I use method on the object person.last_name = "Sosen"; I will not get any errors. -- MODIFYING 
 
 If I try to reassing the value by using person.first_name = "x" I will not get an error. I would get an error if I tried 
 
-person = {first_name: "Anna" };
+person = {first_name: "Anna" }; -- OVERWRITING
+
+CONST DOES NOT prevent complex objects like arrays from being modified. It prevents the value from being reassigned or overwritten! 
 
 --------------------------
 When let
