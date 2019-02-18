@@ -99,3 +99,35 @@ In this example we have a scope issue as var i belongs to global scope. We need 
 When var
 --------------------------
 Keyword var is not recommended anymore. Usage of var keyword should be avoided as a good practice. 
+
+
+--------------------------
+Arrow Function // difference between function declaration and function expression
+--------------------------
+
+Function declaration with no arguments 
+--------------------------
+const name = "Andrew";
+
+function sayName ()  {
+    const message = "My name is " + name;
+    console.log(message);
+}
+
+function sayBye () {
+  console.log("Bye " + name);  
+} 
+--------------------------
+Arrow fuction expression with no arguemnt
+--------------------------
+
+const name = "Andrew";
+
+const sayName = () => {
+    const message = "My name is " + name;
+    console.log(message);
+}
+
+const sayBye = () => {
+  console.log("Bye " + name);  
+} 
