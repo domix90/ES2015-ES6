@@ -131,3 +131,27 @@ const sayName = () => {
 const sayBye = () => {
   console.log("Bye " + name);  
 } 
+
+Function declaration with 1 argument
+--------------------------
+
+
+function square(x) {
+    return x * x;
+}
+
+function cube(x) {
+    return square(x) * x;
+}
+
+--------------------------
+Arrow fuction expression with 1 arguemnt
+--------------------------
+
+const square = (x) => {
+    return x * x;
+}
+
+const cube(x) => {
+    return square(x) * x;
+}
