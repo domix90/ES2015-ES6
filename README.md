@@ -180,3 +180,32 @@ const divide3 = (a, b) => {
 //Arrow Function Expression - concise
 
 const divide4 = (a, b) => a / b;
+
+
+EXAMPLES: 
+
+NORMAL FUNCTION DECLARATION
+1. function addToTen(num) {
+  return 10 + num;
+}
+
+2. function divideUs(num1, num2) {
+  return num1/num2;
+}
+
+3. function printMyName() {
+  let myName = 'Ashley';
+	console.log(myName);
+}
+
+ARROW FUNCTION EXPRESSION CONCISE
+Ad1. const addToTen = num => 10 + num;
+
+
+Ad2. const divideUs = (num1, num2) => num1/num2;
+
+
+Ad3. const printMyName () => {
+  let myName = 'Ashley';
+	console.log(myName);
+}
